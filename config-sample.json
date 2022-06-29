@@ -5,12 +5,12 @@
 		"port": 51826,
 		"pin": "031-45-154"
 	},
-	"description": "This is an example configuration for the Homebridge GPIO On Switch plugin",
+	"description": "This is an example configuration for the Homebridge RPi Push Button plugin",
 	"accessories": [
 		{
-			"accessory": "HomebridgeGpioOnSwitch",
-			"name": "room light",
-			"pin": 18
+			"accessory": "HomebridgeRPiPushButton",
+			"name": "garage",
+			"pin": 19
 		}
 	]
 }
