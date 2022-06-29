@@ -1,5 +1,4 @@
 {
-  "private": true,
   "displayName": "Homebridge Push Button",
   "name": "homebridge-rpi-push-button",
   "version": "1.0.0",
