@@ -1,17 +1,24 @@
 {
-  "displayName": "Homebridge Push Button",
-  "name": "homebridge-rpi-push-button",
-  "version": "1.0.0",
-  "description": "gpio push button.",
-  "license": "Apache-2.0",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/LuisGitHubbr/Homebridge_RPi_Push_Button.git"
-  },
-  "bugs": {
-    "url": "https://github.com/LuisGitHubbr/Homebridge_RPi_Push_Button/issues"
-  },
- "engines": {
+	"displayName": "Homebridge Push Button",
+	"name": "@LuisGitHubbr/Homebridge-RPi-Push-Button",
+	"version": "1.0.0",
+	"description": "GPIO push button.",
+	"author": {
+    		"name": "Luis",
+    		"email": "luisvsilva.mail@gmail.com",
+  	},
+  	"license": "Apache-2.0",
+  	"repository": {
+    		"type": "git",
+    		"url": "git://github.com/LuisGitHubbr/Homebridge-RPi-Push-Button.git"
+  	},
+  	"bugs": {
+    		"url": "https://github.com/LuisGitHubbr/Homebridge-RPi-Push-Button/issues"
+  	},
+	"publishConfig": {
+   		"registry": "https://npm.pkg.github.com/LuisGitHubbr"
+  	},
+  	"engines": {
 		"node": ">=10.17.0",
 		"homebridge": ">=1.3.0"
 	},
@@ -28,7 +35,7 @@
 		"homebridge",
 		"raspberry",
 		"gpio",
-    "button",
+    		"button",
 		"homekit"
 	],
 	"devDependencies": {
