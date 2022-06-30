@@ -3,10 +3,6 @@
 	"name": "@LuisGitHubbr/Homebridge-RPi-Push-Button",
 	"version": "1.0.0",
 	"description": "GPIO push button.",
-	"author": {
-    		"name": "Luis",
-    		"email": "luisvsilva.mail@gmail.com",
-  	},
   	"license": "Apache-2.0",
   	"repository": {
     		"type": "git",
