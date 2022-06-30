@@ -2,7 +2,7 @@
 	"description": "This is an example configuration section for the Homebridge GPIO Push Button plugin",
 	"accessories": [
 		{
-			"accessory": "HomebridgeGPIOPushButton",
+			"accessory": "HomebridgeRpiPushButton",
 			"name": "garage",
 			"pin": 19
 		}
