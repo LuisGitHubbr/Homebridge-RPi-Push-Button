@@ -1,5 +1,5 @@
-export const ACCESSORY_NAME = 'HomebridgeGpioPushButton'
+export const ACCESSORY_NAME = 'HomebridgeRpiPushButton'
 
-export const MANU_FACTURER = 'homebridge gpio push button'
+export const MANU_FACTURER = 'homebridge rpi push button'
 
-export const MODEL = 'RespberryPI GPIO Push Button'
+export const MODEL = 'RaspberryPI GPIO Push Button'
