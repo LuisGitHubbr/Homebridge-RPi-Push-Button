@@ -53,7 +53,7 @@ export class SwitchAccessory implements AccessoryPlugin {
 		this.log.info('Setting switch state to: ', value)
 		// rpio.open(this.config.pin, rpio.OUTPUT, value ? rpio.HIGH : rpio.LOW)
 		rpio.write(this.config.pin, rpio.HIGH)
-		rpio.msleep(500)
+		rpio.msleep(750)
 		// rpio.open(this.config.pin, rpio.OUTPUT, rpio.LOW)
 		rpio.write(this.config.pin, rpio.LOW)
 		callback(null)
